@@ -60,6 +60,49 @@
         посещенных вами
         достопримечательностях
       </p>
+      <form
+      class="review-form"
+      method="post"
+      action="https://echo.htmlacademy.ru">
+        <fieldset class="review-form__group">
+          <legend class="review-form__title">
+            Представьтесь
+          </legend>
+          <label class="review-form__label" for="firstname">
+            Имя<sup>*</sup>:
+          </label>
+          <input
+          class="review-form__input-text"
+          id="firstname"
+          type="text"
+          name="firstname"
+          placeholder="Петр"
+          required
+          >
+          <label class="review-form__label" for="lastname">
+            Фамилия<sup>*</sup>:
+          </label>
+          <input
+          class="review-form__input-text"
+          id="lastname"
+          type="text"
+          name="lastname"
+          placeholder="Иванов"
+          required
+          >
+          <label class="review-form__label" for="middlename">
+            Отчество:
+          </label>
+          <input
+          class="review-form__input-text"
+          id="middlename"
+          type="text"
+          name="middlename"
+          placeholder="Александрович"
+          required
+          >
+        </fieldset>
+      </form>
     </main>
   </body>
 </html>
